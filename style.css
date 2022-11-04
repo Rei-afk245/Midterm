@@ -1,0 +1,79 @@
+body {
+	font-family: "Courier New", Courier, monospace;
+	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+.logo {
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 25px;
+}
+.body-content h1 {
+	text-align: center;
+	color: black;
+}
+.food-container {
+	display: flex;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.Chinese.Chicken {
+	height: 270px;
+	width: 450px;
+	margin-left: 50px;
+	margin-right: 250px;
+	margin-top: 10px;
+}
+.second-container {
+	display: flex;
+	margin-top: 80px;
+	margin-left: 50px;
+}
+.content h1 {
+	width: 700px;
+	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+	color: black;
+	border: 2px solid black;
+	font-size: 20px;
+}
+
+.left-side {
+	flex-direction: column;
+	padding: 0 150px 0 0;
+
+	color: black;
+}
+.right-side-top {
+	color: black;
+
+	border-left: none;
+}
+.right-side-top img {
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	margin-right: auto;
+	margin-left: 230px;
+}
+.right-side-bottom img {
+	height: 250px;
+	width: 450px;
+	margin-left: 140px;
+}
+li {
+	color: black;
+	font-size: 25px;
+}
+
+#side-bar {
+	position: absolute;
+}
+.ingredients {
+	text-align: center;
+	color: black;
+	border: 2px solid black;
+	background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
